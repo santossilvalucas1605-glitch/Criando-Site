@@ -1,299 +1,97 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Athletico Paranaense | Furacão</title>
+    <title>Athletico Paranaense</title>
 
     <link rel="stylesheet" href="style.css">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
-    <!-- MENU -->
-    <header class="header">
-        <div class="logo">
-            <span>CAP</span>
-        </div>
+    <header>
+        <h1>ATHLETICO PARANAENSE</h1>
 
-        <nav id="menu">
+        <nav>
             <a href="#inicio">Início</a>
             <a href="#historia">História</a>
             <a href="#titulos">Títulos</a>
-            <a href="#jogos">Jogos</a>
-            <a href="#noticias">Notícias</a>
         </nav>
-
-        <button class="menu-btn" onclick="abrirMenu()">☰</button>
     </header>
 
 
-    <!-- HERO -->
-    <main>
+    <section id="inicio" class="inicio">
 
-        <section class="hero" id="inicio">
+        <h2>Bem-vindo ao Furacão!</h2>
 
-            <div class="hero-content">
+        <p>
+            Site dedicado ao Athletico Paranaense,
+            um dos grandes clubes do futebol brasileiro.
+        </p>
 
-                <p class="small-title">CLUBE ATHLETICO PARANAENSE</p>
+        <button>SAIBA MAIS</button>
 
-                <h1>
-                    O <span>FURACÃO</span><br>
-                    NÃO PARA.
-                </h1>
-
-                <p class="hero-text">
-                    Paixão, tradição e raça. Conheça a história,
-                    os títulos e tudo sobre o Athletico Paranaense.
-                </p>
-
-                <div class="buttons">
-                    <a href="#historia" class="btn-primary">CONHEÇA O FURACÃO</a>
-                    <a href="#titulos" class="btn-secondary">VER TÍTULOS</a>
-                </div>
-
-            </div>
-
-            <div class="hero-ball">
-                ⚽
-            </div>
-
-        </section>
+    </section>
 
 
-        <!-- SOBRE -->
-        <section class="section" id="historia">
+    <section id="historia">
 
-            <div class="section-title">
-                <p>O FURACÃO</p>
-                <h2>UMA HISTÓRIA DE <span>RAÇA</span></h2>
-            </div>
+        <h2>História</h2>
 
-            <div class="about">
+        <p>
+            O Club Athletico Paranaense foi fundado em
+            26 de março de 1924, na cidade de Curitiba.
+        </p>
 
-                <div class="about-card">
-                    <div class="icon">🔴</div>
-                    <h3>Tradição</h3>
-                    <p>
-                        Um dos grandes clubes do futebol brasileiro,
-                        com uma história marcada por grandes conquistas.
-                    </p>
-                </div>
+        <p>
+            O clube é conhecido como Furacão e possui
+            uma grande história no futebol brasileiro.
+        </p>
 
-                <div class="about-card">
-                    <div class="icon">⚫</div>
-                    <h3>Paixão</h3>
-                    <p>
-                        Uma torcida apaixonada que transforma cada
-                        partida em uma verdadeira festa.
-                    </p>
-                </div>
-
-                <div class="about-card">
-                    <div class="icon">🌪️</div>
-                    <h3>Furacão</h3>
-                    <p>
-                        Intensidade, velocidade e força são marcas
-                        que fazem parte da identidade do clube.
-                    </p>
-                </div>
-
-            </div>
-
-        </section>
+    </section>
 
 
-        <!-- TÍTULOS -->
-        <section class="titles-section" id="titulos">
+    <section id="titulos">
 
-            <div class="section-title">
-                <p>CONQUISTAS</p>
-                <h2>TAÇAS DO <span>FURACÃO</span></h2>
-            </div>
+        <h2>Principais Títulos</h2>
 
-            <div class="titles">
-
-                <div class="title-card">
-                    <strong>1</strong>
-                    <h3>CONMEBOL SUL-AMERICANA</h3>
-                    <p>2006 • 2018</p>
-                </div>
-
-                <div class="title-card">
-                    <strong>1</strong>
-                    <h3>CONMEBOL LIBERTADORES</h3>
-                    <p>2005 - Vice-campeão</p>
-                </div>
-
-                <div class="title-card">
-                    <strong>1</strong>
-                    <h3>CAMPEONATO BRASILEIRO</h3>
-                    <p>2001</p>
-                </div>
-
-                <div class="title-card">
-                    <strong>🟥</strong>
-                    <h3>CAMPEONATO PARANAENSE</h3>
-                    <p>Diversas conquistas</p>
-                </div>
-
-            </div>
-
-        </section>
-
-
-        <!-- JOGOS -->
-        <section class="section" id="jogos">
-
-            <div class="section-title">
-                <p>FUTEBOL</p>
-                <h2>PRÓXIMOS <span>JOGOS</span></h2>
-            </div>
-
-            <div class="game">
-
-                <div class="team">
-                    <div class="team-logo">CAP</div>
-                    <h3>ATHLETICO</h3>
-                </div>
-
-                <div class="game-info">
-                    <span>PRÓXIMA PARTIDA</span>
-                    <strong>VS</strong>
-                    <small>Data e horário a definir</small>
-                </div>
-
-                <div class="team">
-                    <div class="opponent-logo">⚽</div>
-                    <h3>ADVERSÁRIO</h3>
-                </div>
-
-            </div>
-
-        </section>
-
-
-        <!-- NOTÍCIAS -->
-        <section class="news-section" id="noticias">
-
-            <div class="section-title">
-                <p>FURACÃO NEWS</p>
-                <h2>ÚLTIMAS <span>NOTÍCIAS</span></h2>
-            </div>
-
-            <div class="news-grid">
-
-                <article class="news-card">
-                    <div class="news-image red">
-                        ⚽
-                    </div>
-
-                    <div class="news-content">
-                        <span>FUTEBOL</span>
-                        <h3>
-                            Athletico se prepara para mais um desafio
-                        </h3>
-                        <p>
-                            Confira as novidades e informações do Furacão.
-                        </p>
-                        <a href="#">LER MAIS →</a>
-                    </div>
-                </article>
-
-
-                <article class="news-card">
-                    <div class="news-image black">
-                        🏟️
-                    </div>
-
-                    <div class="news-content">
-                        <span>CLUBE</span>
-                        <h3>
-                            A força da torcida rubro-negra
-                        </h3>
-                        <p>
-                            A torcida é parte fundamental da história do clube.
-                        </p>
-                        <a href="#">LER MAIS →</a>
-                    </div>
-                </article>
-
-
-                <article class="news-card">
-                    <div class="news-image gradient">
-                        🏆
-                    </div>
-
-                    <div class="news-content">
-                        <span>HISTÓRIA</span>
-                        <h3>
-                            Grandes conquistas do Athletico
-                        </h3>
-                        <p>
-                            Relembre momentos marcantes do Furacão.
-                        </p>
-                        <a href="#">LER MAIS →</a>
-                    </div>
-                </article>
-
-            </div>
-
-        </section>
-
-
-        <!-- TORCIDA -->
-        <section class="fans">
+        <div class="titulos">
 
             <div>
-                <p>UMA TORCIDA</p>
-                <h2>QUE FAZ A <span>DIFERENÇA.</span></h2>
-                <p class="fans-text">
-                    O Athletico é feito de história, jogadores,
-                    títulos e, principalmente, de sua torcida.
-                </p>
+                <h3>🏆 Campeonato Brasileiro</h3>
+                <p>2001</p>
             </div>
 
-            <div class="fans-number">
-                <strong>CAP</strong>
-                <span>FURACÃO</span>
+            <div>
+                <h3>🏆 Copa Sul-Americana</h3>
+                <p>2018 e 2021</p>
             </div>
 
-        </section>
+            <div>
+                <h3>🏆 Copa do Brasil</h3>
+                <p>2019</p>
+            </div>
 
-    </main>
+        </div>
+
+    </section>
 
 
-    <!-- RODAPÉ -->
     <footer>
 
-        <div class="footer-logo">
-            CAP
-        </div>
+        <p>
+            Site sobre o Athletico Paranaense
+        </p>
 
-        <div>
-            <h3>ATHLETICO PARANAENSE</h3>
-            <p>Paixão que não se explica.</p>
-        </div>
-
-        <div class="social">
-            <a href="#">Instagram</a>
-            <a href="#">Facebook</a>
-            <a href="#">YouTube</a>
-        </div>
-
-        <div class="copyright">
-            © 2026 Site do Torcedor — Projeto independente.
-        </div>
+        <p>
+            Projeto desenvolvido no Visual Studio Code.
+        </p>
 
     </footer>
 
-
-    <script src="script.js"></script>
-
 </body>
+
 </html>
