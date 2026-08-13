@@ -1,4 +1,3 @@
-script.js
 
 const botao = document.getElementById('botao_tema');
 
